@@ -1,40 +1,22 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: #007BFF;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-section {
-  padding: 20px;
-}
-
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-}
-
 @media (max-width: 768px) {
-  header, footer {
-    text-align: center;
-  }
+    .image-container img {
+      max-width: 100%; /* Allow images to scale down */
+      height: auto; /* Adjust height proportionally */
+    }
+  }  
 
-  nav a {
-    display: block;
-    margin: 5px 0;
+body {
+    font-family: "Tw Cen MT", Arial, sans-serif;
+    background-color: #f7f3f7; /* Soft purple background */
+    color: #34495e; /* General text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+

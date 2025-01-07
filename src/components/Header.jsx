@@ -1,14 +1,10 @@
+// Header.jsx
 import React from 'react';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Visit Penang</h1>
-      <nav>
-        <a href="#tourist-spots">Tourist Spots</a>
-        <a href="#food">Food & Beverages</a>
-        <a href="#hotels">Hotels</a>
-      </nav>
+    <header className="hero bg-cover bg-center h-screen flex items-center justify-center text-white" style={{ backgroundImage: 'url(/images/penang-bridge.jpg)' }}>
+      <h1 className="text-4xl md:text-6xl font-bold">Penang, Malaysia</h1>
     </header>
   );
 };
