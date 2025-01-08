@@ -25,7 +25,7 @@ const Food = () => {
       name: "Hokkien Mee",
       description:
         "A fragrant noodle soup featuring a savory broth made from prawns, pork, and spices, served with a mix of yellow noodles and rice vermicelli.",
-      image: "/images/hokkienmee.jpeg",
+      image: "/images/hokkienmee1.jpeg",
     },
     {
       name: "Pasembur",
