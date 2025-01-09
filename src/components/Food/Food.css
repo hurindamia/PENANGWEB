@@ -1,0 +1,71 @@
+/* General container styling */
+.food-container {
+    background-color: #ffefcc; /* Soft beige for a food theme */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto; /* Center the container */
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .food-title {
+    font-family: "Tw Cen MT", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d35400; /* Burnt orange for food titles */
+    margin-bottom: 25px;
+  }
+  
+  /* Food section styling */
+  .food-section {
+    margin-bottom: 40px;
+  }
+  
+  /* Food name styling */
+  .food-name {
+    font-family: "Tw Cen MT", Arial, sans-serif;
+    font-size: 25px;
+    color: #34495e; /* Dark slate gray */
+    margin-bottom: 25px;
+  }
+  
+  /* Description styling */
+  .food-description {
+    font-family: "Tw Cen MT", Arial, sans-serif;
+    font-size: 16px;
+    color: #1b3031; 
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Image container and image styling */
+  .image-container img {
+    width: 100%; /* Ensure responsiveness */
+    max-width: 200px; /* Set a consistent maximum width */
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 20px; /* Add rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a polished look */
+    display: block;
+    margin: auto; /* Center the images */
+  }
+  
+  
+  .food-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 500px; /* Optional: Set a max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  }
+
+  .food-image:hover {
+    transform: scale(1.1); /* Scale image on hover */
+  }
+
+  
+  
