@@ -26,10 +26,19 @@ body {
   /* Title styling */
   .tourist-title {
     font-family: "Tw Cen MT", Arial, sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #2980b9; /* Deep blue */
     margin-bottom: 20px;
+  }
+
+   /* Description styling */
+   .tourist-description {
+    font-family: "Tw Cen MT", Arial, sans-serif;
+    font-size: 16px;
+    color: #1b3031; 
+    margin-top: 20px;
+    line-height: 1.5;
   }
   
   /* Section for each spot */
@@ -40,9 +49,9 @@ body {
   /* Spot name styling */
   .spot-name {
     font-family: "Tw Cen MT", Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #34495e; /* Dark slate gray */
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   
   /* Image container and styling */
@@ -60,10 +69,14 @@ body {
   
   .spot-image {
     width: 100%; /* Make the image responsive */
-    max-width: 600px; /* Optional: Set a max width */
+    max-width: 200px; /* Optional: Set a max width */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Add rounded corners */
+    border-radius: 20px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
   }
-  
+
+  .spot-image:hover {
+    transform: scale(1.1); /* Scale image on hover */
+  }
   

@@ -42,7 +42,7 @@ const Food = () => {
         <div key={index} className="food-section">
           <h3 className="food-name">{food.name}</h3>
           <div className="image-container">
-            <img src={food.image} alt={food.name} />
+            <img src={food.image} alt={food.name} className="food-image"  />
           </div>
           <p className="food-description">{food.description}</p>
         </div>

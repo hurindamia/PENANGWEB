@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="logo">Penang Explorer</div>
       <ul className="nav-links">
         <li><a href="#home" className="nav-item">Home</a></li>
-        <li><a href="#tourist-spots" className="nav-item">Tourist Spots</a></li>
+        <li><a href="#touristspots" className="nav-item">Tourist Spots</a></li>
         <li><a href="#foods" className="nav-item">Foods</a></li>
         <li><a href="#hotels" className="nav-item">Hotels</a></li>
       </ul>
