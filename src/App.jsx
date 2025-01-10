@@ -1,27 +1,32 @@
-// App.jsx
 import React from 'react';
-import Header from './components/Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from "./components/Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
+import Menu from "./components/Menu/Menu";
+import PictureGallery from "./components/PictureGallery/PictureGallery";
 import TouristSpots from './components/TouristSpots/TouristSpots';
 import Food from './components/Food/Food';
 import Hotels from './components/Hotels/Hotels';
 import Footer from './components/Footer';
-import Navbar from "./components/Navbar/Navbar";
-import Banner from "./components/Banner/Banner";
-import PictureGallery from "./components/PictureGallery/PictureGallery";
 
 const App = () => {
   return (
-    <div className="font-sans">
-      <Navbar />
-      <Banner />
-      <PictureGallery />
-      <main>
-        <TouristSpots />
-        <Food />
-        <Hotels />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="font-sans">
+        <Navbar />
+        <Banner />
+        <Menu />
+        <PictureGallery />
+
+        <Routes>
+          <Route path="/tourist-spots" element={<TouristSpots />} />
+          <Route path="/food" element={<Food />} />
+          <Route path="/hotels" element={<Hotels />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

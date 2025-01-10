@@ -1,0 +1,38 @@
+.menu {
+    display: flex; /* Arrange cards in a row */
+    justify-content: center; /* Center the menu */
+    gap: 20px; /* Space between cards */
+    margin: 20px 0; /* Space above and below the menu */
+  }
+  
+  .menu-item {
+    height: 200px; /* Fixed height for each card */
+    width: 200px; /* Fixed width for consistency */
+    background-color: #fff; /* White card background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-decoration: none; /* Remove underline for links */
+    padding: 20px; /* Padding inside each card */
+    text-align: center; /* Center-align content */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack icon and label */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  .menu-item .card-icon {
+    font-size: 48px; /* Large icon size */
+    margin-bottom: 15px; /* Space below the icon */
+  }
+  
+  .menu-item .card-label {
+    font-size: 16px; /* Text size for the label */
+    font-weight: bold; /* Bold label text */
+    color: #333; /* Text color */
+  }  
