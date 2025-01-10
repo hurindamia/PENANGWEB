@@ -14,13 +14,11 @@ body {
   /* Tourist container styling */
   .tourist-container {
     background-color: #f7f1e3; /* Soft cream */
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 900px; /* Max width of container */
     width: 100%; /* Responsive width */
     text-align: center;
-    margin: 20px auto; /* Center the section */
+    overflow-x: hidden;
   }
   
   /* Title styling */
@@ -29,6 +27,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     color: #2980b9; /* Deep blue */
+    padding-top: 20px;
     margin-bottom: 20px;
   }
 
@@ -38,12 +37,8 @@ body {
     font-size: 16px;
     color: #1b3031; 
     margin-top: 20px;
+    padding-bottom: 40px;
     line-height: 1.5;
-  }
-  
-  /* Section for each spot */
-  .spot-section {
-    margin-bottom: 40px;
   }
   
   /* Spot name styling */

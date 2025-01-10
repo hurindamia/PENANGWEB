@@ -13,9 +13,8 @@ const App = () => {
   return (
     <div className="font-sans">
       <Navbar />
-      <Header />
-      <PictureGallery />
       <Banner />
+      <PictureGallery />
       <main>
         <TouristSpots />
         <Food />
@@ -27,5 +26,3 @@ const App = () => {
 };
 
 export default App;
-
-
