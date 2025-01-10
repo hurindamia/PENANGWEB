@@ -14,14 +14,45 @@ const App = () => {
     <Router>
       <div className="font-sans">
         <Navbar />
-        <Banner />
-        <Menu />
-        <PictureGallery />
 
+        {/* Main layout for the home page */}
         <Routes>
-          <Route path="/tourist-spots" element={<TouristSpots />} />
-          <Route path="/food" element={<Food />} />
-          <Route path="/hotels" element={<Hotels />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Banner />
+                <Menu />
+                <PictureGallery />
+              </>
+            }
+          />
+
+          {/* Layout for other pages */}
+          <Route
+            path="/tourist-spots"
+            element={
+              <>
+                <TouristSpots />
+              </>
+            }
+          />
+          <Route
+            path="/food"
+            element={
+              <>
+                <Food />
+              </>
+            }
+          />
+          <Route
+            path="/hotels"
+            element={
+              <>
+                <Hotels />
+              </>
+            }
+          />
         </Routes>
 
         <Footer />
