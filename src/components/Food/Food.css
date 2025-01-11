@@ -4,13 +4,13 @@
   padding: 30px;
   margin: 0;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: "TW Cen MT", Arial, sans-serif;
 }
 
 /* Title Styling */
 .main-title {
   font-size: 2.5rem;
-  color: #2c3e50;
+  color: #5C4033;
   margin-bottom: 30px;
 }
 
@@ -24,7 +24,7 @@
 
 /* Individual Spot Card Styling */
 .food-card {
-  background-color: #ffffff;
+  background-color: #FAD6A5;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -52,13 +52,13 @@
 
 .food-title {
   font-size: 1.5rem;
-  color: #34495e;
+  color: #5C4033;
   margin-bottom: 10px;
 }
 
 .food-description {
   font-size: 1rem;
-  color: #555555;
+  color: #000000;
   line-height: 1.5;
 }
 

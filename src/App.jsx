@@ -7,6 +7,7 @@ import PictureGallery from "./components/PictureGallery/PictureGallery";
 import TouristSpots from './components/TouristSpots/TouristSpots';
 import Food from './components/Food/Food';
 import Hotels from './components/Hotels/Hotels';
+import Activities from './components/Activities/Activities';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -50,6 +51,14 @@ const App = () => {
             element={
               <>
                 <Hotels />
+              </>
+            }
+          />
+          <Route
+            path="/activities"
+            element={
+              <>
+                <Activities />
               </>
             }
           />
