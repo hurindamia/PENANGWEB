@@ -27,7 +27,7 @@ function AboutPenang() {
         <p className="flag-caption">
           The official flag of Penang symbolizes its beauty, heritage, and progress.
         </p>
-        <p className="flag-caption">
+        <p className="">
           Introduced in 1949, the flag of Penang is a powerful symbol of the
           state’s identity. It features three vertical stripes: blue, white, and
           yellow. The blue stripe represents the sea surrounding the island, the

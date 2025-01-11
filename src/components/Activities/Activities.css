@@ -15,7 +15,6 @@
     margin-bottom: 30px;
   }
   
-  /* Container for Spots */
   .activities-container {
     display: flex;
     flex-wrap: wrap; /* Make the layout responsive */
@@ -23,7 +22,6 @@
     gap: 20px; /* Spacing between cards */
   }
   
-  /* Individual Spot Card Styling */
   .activities-card {
     background-color: #e0cece;
     border-radius: 10px;
@@ -39,14 +37,12 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
   }
   
-  /* Spot Image Styling */
   .activities-image {
     width: 100%; /* Make the image fill the card width */
     height: 180px;
     object-fit: cover; /* Ensure images are cropped properly */
   }
   
-  /* Spot Content Styling */
   .activities-content {
     padding: 15px;
   }
@@ -61,6 +57,7 @@
     font-size: 1rem;
     color: #000000;
     line-height: 1.5;
+    text-align: justify;
   }
   
   /* Responsive Design for Smaller Screens */
