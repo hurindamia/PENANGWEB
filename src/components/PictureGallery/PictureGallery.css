@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #FFF4E1;
   padding: 2rem;
+  margin: 0px;
 }
 
 .picture-gallery h2 {
@@ -59,4 +60,24 @@
   font-size: 1rem;
   padding: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.flip-card-back .name {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.flip-card-back .description {
+  font-size: 1em;
+  color: #666;
 }
