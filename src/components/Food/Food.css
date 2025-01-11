@@ -1,67 +1,75 @@
-/* General container styling */
+/* General Body Styling */
+.app-body {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 30px;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Title Styling */
+.main-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Container for Spots */
 .food-container {
-    background-color: #ffefcc; /* Soft beige for a food theme */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Title styling */
-  .food-title {
-    font-family: "Tw Cen MT", Arial, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: #d35400; /* Burnt orange for food titles */
-    margin-bottom: 25px;
-    margin-top: 0px;
-    padding-top: 20px;
-  }
-  .food-section {
-    padding-bottom: 40px;
-  }
-  /* Food name styling */
-  .food-name {
-    font-family: "Tw Cen MT", Arial, sans-serif;
-    font-size: 25px;
-    color: #34495e; /* Dark slate gray */
-    margin-bottom: 25px;
-  }
-  
-  /* Description styling */
-  .food-description {
-    font-family: "Tw Cen MT", Arial, sans-serif;
-    font-size: 16px;
-    color: #1b3031; 
-    margin-top: 20px;
-    line-height: 1.5;
-  }
-  
-  /* Image container and image styling */
-  .image-container img {
-    width: 100%; /* Ensure responsiveness */
-    max-width: 200px; /* Set a consistent maximum width */
-    height: 400px; /* Set a fixed height */
-    object-fit: cover; /* Maintain aspect ratio and crop if needed */
-    border-radius: 20px; /* Add rounded corners for aesthetics */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a polished look */
-    display: block;
-    margin: auto; /* Center the images */
-  }
-  
-  
-  .food-image {
-    width: 100%; /* Make the image responsive */
-    max-width: 500px; /* Optional: Set a max width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Add rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-    transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+  display: flex;
+  flex-wrap: wrap; /* Make the layout responsive */
+  justify-content: center;
+  gap: 20px; /* Spacing between cards */
+}
+
+/* Individual Spot Card Styling */
+.food-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px; /* Fixed width for uniformity */
+  text-align: left; /* Align text to the left */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Spot Image Styling */
+.food-image {
+  width: 100%; /* Make the image fill the card width */
+  height: 200px;
+  object-fit: cover; /* Ensure images are cropped properly */
+}
+
+/* Spot Content Styling */
+.food-content {
+  padding: 15px;
+}
+
+.food-title {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.food-description {
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.5;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .spots-container {
+    flex-direction: column;
+    gap: 15px; /* Reduce spacing between cards */
   }
 
-  .food-image:hover {
-    transform: scale(1.1); /* Scale image on hover */
+  .spot-card {
+    width: 90%; /* Take up more space on smaller screens */
   }
-
-  
-  
+}
