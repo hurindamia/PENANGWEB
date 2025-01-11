@@ -1,0 +1,76 @@
+/* General Body Styling */
+.app-body {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    
+  font-family: "TW Cen MT", Arial, sans-serif;
+  }
+  
+  /* Title Styling */
+  .main-title {
+    font-size: 2.5rem;
+    color: #4F3222;
+    margin-bottom: 30px;
+  }
+  
+  /* Container for Spots */
+  .activities-container {
+    display: flex;
+    flex-wrap: wrap; /* Make the layout responsive */
+    justify-content: center;
+    gap: 20px; /* Spacing between cards */
+  }
+  
+  /* Individual Spot Card Styling */
+  .activities-card {
+    background-color: #e0cece;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Fixed width for uniformity */
+    text-align: left; /* Align text to the left */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .activities-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Spot Image Styling */
+  .activities-image {
+    width: 100%; /* Make the image fill the card width */
+    height: 180px;
+    object-fit: cover; /* Ensure images are cropped properly */
+  }
+  
+  /* Spot Content Styling */
+  .activities-content {
+    padding: 15px;
+  }
+  
+  .activities-title {
+    font-size: 1.5rem;
+    color: #4F3222;
+    margin-bottom: 10px;
+  }
+  
+  .activities-description {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .activities-container {
+      flex-direction: column;
+      gap: 15px; /* Reduce spacing between cards */
+    }
+  
+    .activities-card {
+      width: 90%; /* Take up more space on smaller screens */
+    }
+  }
