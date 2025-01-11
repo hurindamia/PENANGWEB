@@ -2,7 +2,7 @@
     display: flex; /* Arrange cards in a row */
     justify-content: center; /* Center the menu */
     gap: 20px; /* Space between cards */
-    margin: 20px 0; /* Space above and below the menu */
+    margin: 40px 0; /* Space above and below the menu */
   }
   
   .menu-item {

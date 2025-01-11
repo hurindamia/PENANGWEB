@@ -13,7 +13,7 @@
 }
 
 .footer {
-  bottom: 0; /* Position it at the very top */
+  bottom: 0; 
   display: flex;
   justify-content: space-between;
   align-items: center;
