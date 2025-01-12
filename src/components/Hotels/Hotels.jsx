@@ -32,6 +32,12 @@ const hotels = [
       "A tropical beachfront resort offering a relaxing escape with family-friendly facilities. Prices: RM500–RM1,000 per night.",
     image: "/images/parkroyal.jpg",
   },
+  {
+    name: "Eastin Hotel",
+    description:
+      "Enjoy a vibrant stay at Eastin Hotel Penang. Relax at the rooftop pool or explore Queensbay Mall.",
+    image: "/images/eastin.jpeg",
+  },
 ];
 
 function Hotels() {

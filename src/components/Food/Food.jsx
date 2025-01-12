@@ -32,6 +32,12 @@ const foodData = [
       "Pasembur is a flavorful Malaysian salad packed with crispy fritters, fresh vegetables, and rich peanut sauce.",
     image: "/images/pasembur.jpg",
   },
+  {
+    name: "Tau Sar Piah",
+    description:
+      "A delicious snack that is very popular in Penang. It is traditionally a type of baked good with various bean fillings, such as red beans or green beans.",
+    image: "/images/tausarpiah.jpg",
+  }
 ];
 
 function Food() {

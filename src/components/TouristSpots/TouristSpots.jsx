@@ -25,7 +25,19 @@ const spots = [
     description:
       "A UNESCO World Heritage Site known for its well-preserved colonial architecture, vibrant street art, and diverse cultural influences. Explore local markets, museums, and charming streets full of history.",
     image: "/images/penang-park1.jpg",
-  }, // Ensure there's no trailing comma after the last item
+  },
+  {
+    name: "ESCAPE Penang",
+    description:
+      "Get ready for nonstop fun at ESCAPE Penang! With over 38 thrilling rides and attractions, it's the ultimate adventure destination in Malaysia.",
+    image: "/images/escape1.jpg",
+  },
+  {
+    name: "Batu Ferringhi Beach",
+    description:
+      "ost popular for its sandy beaches and it draws endless streams of tourist every year.",
+    image: "/images/batuferringhi.jpg",
+  }
 ];
 
 function TouristSpots() {
