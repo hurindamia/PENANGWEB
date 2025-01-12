@@ -1,5 +1,5 @@
 import React from "react";
-import "./food.css";
+import "./Food.css";
 
 const foodData = [
   {
