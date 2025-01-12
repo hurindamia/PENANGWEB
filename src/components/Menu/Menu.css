@@ -8,7 +8,7 @@
   .menu-item {
     height: 200px; /* Fixed height for each card */
     width: 200px; /* Fixed width for consistency */
-    background-color: black; /* White card background */
+    background-color: white; /* White card background */
     border-radius: 12px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     text-decoration: none; /* Remove underline for links */
