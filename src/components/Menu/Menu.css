@@ -8,7 +8,7 @@
   .menu-item {
     height: 200px; /* Fixed height for each card */
     width: 200px; /* Fixed width for consistency */
-    background-color: #fff; /* White card background */
+    background-color: black; /* White card background */
     border-radius: 12px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     text-decoration: none; /* Remove underline for links */
@@ -36,3 +36,17 @@
     font-weight: bold; /* Bold label text */
     color: #333; /* Text color */
   }  
+
+  @media (max-width: 768px) { /* Adjust for smaller screens */
+    .menu {
+      flex-direction: column; /* Stack menu items vertically */
+      align-items: center; /* Center align the menu */
+      gap: 10px; /* Reduce the gap between items */
+    }
+  
+    .menu-item {
+      width: 90%; /* Make cards take up most of the screen width */
+      max-width: 300px; /* Add a maximum width to prevent cards from being too wide */
+    }
+  }
+  
