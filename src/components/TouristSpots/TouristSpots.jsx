@@ -35,7 +35,7 @@ const spots = [
   {
     name: "Batu Ferringhi Beach",
     description:
-      "ost popular for its sandy beaches and it draws endless streams of tourist every year.",
+      "Most popular for its sandy beaches and it draws endless streams of tourist every year.",
     image: "/images/batuferringhi.jpg",
   }
 ];

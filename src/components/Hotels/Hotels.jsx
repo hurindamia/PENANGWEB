@@ -35,9 +35,9 @@ const hotels = [
   {
     name: "Eastin Hotel",
     description:
-      "Enjoy a vibrant stay at Eastin Hotel Penang. Relax at the rooftop pool or explore Queensbay Mall.",
+      "Enjoy a vibrant stay at Eastin Hotel Penang. Relax at the rooftop pool or explore Queensbay Mall. Prices: RM300-RM800 per night.",
     image: "/images/eastin.jpeg",
-  },
+  }
 ];
 
 function Hotels() {
